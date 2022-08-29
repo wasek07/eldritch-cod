@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #FFD700;
+}
+
+body {
+	background-image: url(assets/home.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.wraper {
+	padding: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 100vw;
+	height: 100vh;
+}
+
+.ancient-container {
+	max-width: 500px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contain {
+	margin: 0 10px;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+   color: #4BA82F;
+}
+
+.row-title {
+	text-align: center;
+	font-size: 16px;
+}
+
+.card-ancient {
+	width: 100%;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.cont-dif {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 210px;
+}
+
+.difficulty-active {
+	display: flex;
+}
+
+.btn-dif {
+	width: 135px;
+	height: 35px;
+	background-color:	#2F4F4F;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+.deck-container {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 700px;
+}
+
+.deck-active {
+	display: flex;
+}
+
+.btn-deck {
+	display: none;
+	width: 170px;
+	height: 35px;
+	background-color:	#2F4F4F;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.act-btn {
+	display: block;
+}
+
+.wraper-row {
+	display: flex;
+	justify-content: space-between;
+	width: 170px;
+}
+
+.deck-rows {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+}
+
+.row-element {
+	display: flex;
+	flex-direction: column;
+	height: 40px;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: center;
+	justify-content: center;
+}
+
+.brown {
+	background-color: brown;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+
+.deck-cards {
+	height: 200px;
+	width: 140px;
+	background-size: cover;
+	background-image: url(assets/mythicCardBackground.png);
+	cursor: pointer;
+}
+
+.active-card {
+	height: 200px;
+	width: 140px;
+	border: 2px solid 	#FF8C00;
+	background-size: cover;
+}

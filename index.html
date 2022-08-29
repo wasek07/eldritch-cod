@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Eldritch (CodeJam)</title>
+</head>
+
+<body>
+   <div class="wraper">
+      <div class="ancients contain">
+         <h2 class="title">Ancient</h2>
+         <div class="ancient-container">
+            <img src="./assets/Ancients/Azathoth.png" alt="image-ancient" class="card-ancient" id="azathoth">
+         </div>
+      </div>
+      <div class="difficulty contain">
+         <h2 class="difficulty-title title">Difficulty</h2>
+         <div class="cont-dif">
+            <button class="btn-dif easy">Easy</button>
+            <button class="btn-dif normal">Normal</button>
+            <button class="btn-dif hard">Hard</button>
+            <button class="btn-dif veryhard">Very Hard</button>
+         </div>
+      </div>
+      <div class="deck contain">
+         <h2 class="deck-title title">Deck</h2>
+         <button class="btn-deck">Shuffle the deck</button>
+         <div class="deck-container">
+            <div class="deck-rows">
+               <div class="deck-row one-row">
+                  <h3 class="row-title"> Stage One</h3>
+                  <div class="wraper-row" id="firstStage">
+                     <div class="row-element green"></div>
+                     <div class="row-element brown"></div>
+                     <div class="row-element blue"></div>
+                  </div>
+               </div>
+               <div class="deck-row two-row">
+                  <h3 class="row-title"> Stage Two</h3>
+                  <div class="wraper-row" id="secondStage">
+                     <div class="row-element green"></div>
+                     <div class="row-element brown"></div>
+                     <div class="row-element blue"></div>
+                  </div>
+               </div>
+               <div class="deck-row three-row">
+                  <h3 class="row-title">Stage Three</h3>
+                  <div class="wraper-row" id="thirdStage">
+                     <div class="row-element green"></div>
+                     <div class="row-element brown"></div>
+                     <div class="row-element blue"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="deck-cards"></div>
+            <img src="./assets/mythicCardBackground.png" alt="background" class="active-card">
+         </div>
+      </div>
+   </div>
+   <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
